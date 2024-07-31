@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DataDrivenDemo</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>91aebaba-bf30-48b9-abed-79d4eccf3010</testSuiteGuid>
+   <testCaseLink>
+      <guid>002f8b52-0a5c-424a-9ef5-a977c9c6d27e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CuraWeb/DDTDemo</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e6edd9b4-7ab8-4279-b6fb-95ae3c4e884d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DDTLogin</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>e6edd9b4-7ab8-4279-b6fb-95ae3c4e884d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>6fd8b8dc-2017-4377-bfd5-f7efcdc46fd2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e6edd9b4-7ab8-4279-b6fb-95ae3c4e884d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>a57ab789-6191-46aa-9d1d-80904c1a5db0</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
